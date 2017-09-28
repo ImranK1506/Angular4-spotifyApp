@@ -1,9 +1,8 @@
-<!-- <h1>Looking for Music?</h1>
-<p>Lorem ipsum dolor...</p>
-<form class="navbar-form" role="search">
+<div class="container">
+<h1>Look for music</h1>
+  <form>
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="Search Artist">
+      <input type="text" class="form-control" placeholder="Search Artists..." [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic()">
     </div>
-  </form> -->
-
-  <div class="container">Search</div>
+  </form>
+</div>
